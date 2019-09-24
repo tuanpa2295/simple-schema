@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "dev": "node index.js"
+    "dev": "node lib/schema.js"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +13,7 @@
   "dependencies": {
     "assert": "^2.0.0",
     "chai": "^4.2.0",
-    "mocha": "^6.2.0",
-    "validate": "^5.0.0"
+    "lodash": "^4.17.15",
+    "mocha": "^6.2.0"
   }
 }
